@@ -18,7 +18,7 @@ $ kubectl logs firstpod
 
 ```
 ## Connect to container and run command
-$ kubectl exec firstpod --printenv
+$ kubectl exec firstpod -- printenv
 ```
 
 ```
